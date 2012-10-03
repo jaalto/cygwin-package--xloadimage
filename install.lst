@@ -1,0 +1,22 @@
+# Syntax: FROM [TO [MODE]]
+#
+# Without trailing slash: rename file TO; TO expansions $PKG $VER DOC
+# Scripts and manpages are automatically installed; no TO is needed:
+# Script suffixes *.pl etc. are stripped on install.
+#
+#    program usr/bin/
+#    prg     usr/bin/newname
+#    README  $DOC/ 644
+#    man.1
+#    program.pl
+
+uufilter	usr/bin/
+xloadimage  	usr/bin/
+
+ln usr/bin/xloadimage xsetbg
+ln usr/bin/xloadimage xview
+
+xloadimagerc    etc/X11/Xloadimage
+
+uufilter.man	usr/share/man/man1/uufilter.1
+xloadimage.man	usr/share/man/man1/xloadimage.1
