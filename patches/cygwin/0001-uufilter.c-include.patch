@@ -1,0 +1,28 @@
+From 65c27595159e7338565021370553447514ecb250 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Wed, 3 Oct 2012 10:39:24 +0300
+Subject: [PATCH] uufilter.c include
+Organization: Private
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ uufilter.c |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/uufilter.c b/uufilter.c
+index 72e20b2..35a3906 100644
+--- a/uufilter.c
++++ b/uufilter.c
+@@ -10,6 +10,7 @@
+  *          the same time.
+  */
+ 
++#include <stdlib.h>
+ #include <stdio.h>
+ #include <string.h>
+ 
+-- 
+1.7.9
+
