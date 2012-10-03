@@ -1,25 +1,28 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: package N.N -- decription
+Subject: New package: xloadimage 4.1-1 -- Graphics file viewer under X11
 --text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
 
-Homepage:
-License : GPL
+Homepage: http://packages.debian.org/xloadimage
+License : Custom ("...unlimited permission to copy, modify...")
 
-<write description here>
+Can view png, jpeg, gif, tiff, niff, sunraster, fbm, cmuraster, pbm,
+faces, rle, xwd, vff, mcidas, vicar, pcx, gem, macpaint, xpm and xbm
+files. Can view images, put them on the root window, or dump them.
+Does a variety of processing, including: clipping, dithering, depth
+reduction, zoom, brightening/darkening and merging.
 
 CHANGES SINCE LAST RELEASE
 ==========================
 
-<Add this section if this is update>
+None.
 
 INSTALL OR UPGRADE NOTES
 ========================
 
-<if anything to watch out>
+Standard install.
 
 CYGWIN INSTALLATION INFORMATION
 ===============================

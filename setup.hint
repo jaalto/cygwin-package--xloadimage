@@ -1,10 +1,8 @@
-# See http://cygwin.com/setup.html   The 'category' can be:
-# Accessibility Admin Archive Audio Base Comm Database Devel Doc Editors
-# Games Gnome Graphics Interpreters Libs Mail Math Mingw Net Perl Python
-# Publishing Security Shells System Text Utils Web X11
-sdesc: ""
-ldesc: ""
-category: name [name...]
-requires: cygwin [package...]
-external-source: package
-conflicts:
+sdesc: "Graphics file viewer under X11"
+ldesc: "Can view png, jpeg, gif, tiff, niff, sunraster, fbm, cmuraster, pbm,
+faces, rle, xwd, vff, mcidas, vicar, pcx, gem, macpaint, xpm and xbm
+files. Can view images, put them on the root window, or dump them.
+Does a variety of processing, including: clipping, dithering, depth
+reduction, zoom, brightening/darkening and merging."
+category: X11
+requires: libX11_6 libjpeg8 libpng15 libtiff5
