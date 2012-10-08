@@ -10,3 +10,4 @@
 # Copies of manual pages
 --exclude=uufilter.txt
 --exclude=xloadimage.txt
+--exclude=VMS_BUILD.COM
